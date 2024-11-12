@@ -1,5 +1,5 @@
+import { cn } from "@utils/cn";
 import { PropsWithChildren } from "react";
-import { cn } from "../../utils/cn";
 
 type ButtonProps = PropsWithChildren<{
   onClick?: () => void;

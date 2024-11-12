@@ -1,7 +1,7 @@
 import { ComponentProps } from "react";
-import { Button } from "../components/common/Button";
 import { Meta, StoryObj } from "@storybook/react";
 import { fn } from "@storybook/test";
+import { Button } from "@components/common/Button";
 
 type StoryProps = ComponentProps<typeof Button> & {
   buttonText: string;

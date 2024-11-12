@@ -1,5 +1,5 @@
-import { BlockType } from "../../types/global";
-import { cn } from "../../utils/cn";
+import { BlockType } from "@custom-types/global";
+import { cn } from "@utils/cn";
 
 type BlockContainerProps = {
   children: React.ReactNode;

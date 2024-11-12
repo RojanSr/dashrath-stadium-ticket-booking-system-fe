@@ -1,9 +1,9 @@
-import GroundSVG from "./assets/Miscellaneous/Ground.svg";
-import BlockA from "./assets/Blocks/BlockA.svg";
-import BlockB from "./assets/Blocks/BlockB.svg";
-import BlockC from "./assets/Blocks/BlockC.svg";
+import GroundSVG from "@assets/Miscellaneous/Ground.svg";
+import BlockA from "@assets/Blocks/BlockA.svg";
+import BlockB from "@assets/Blocks/BlockB.svg";
+import BlockC from "@assets/Blocks/BlockC.svg";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-import BlockContainer from "./components/BlockContainer/BlockContainer";
+import BlockContainer from "@components/BlockContainer/BlockContainer";
 
 function App() {
   return (
